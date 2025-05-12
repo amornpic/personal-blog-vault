@@ -13,10 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/video.md",
+                "file": "Templates/course.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "course"
+            }
+          },
+          {
+            "id": "17c1ce1b786dba57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/talk.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "talk"
+            }
+          },
+          {
+            "id": "b8f6b931b9b8ee79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/talks/a-talks.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "a-talks"
+            }
+          },
+          {
+            "id": "0f889363d4d5af6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/talks/a-talks.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "a-talks"
             }
           },
           {
@@ -28,23 +72,13 @@
                 "file": "Templates/course.md",
                 "mode": "source",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "d779bc59a19f4d48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "course"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -63,8 +97,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -79,7 +116,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           }
         ]
@@ -102,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Templates/course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +149,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for course"
             }
           },
           {
@@ -119,10 +160,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Templates/course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from course"
             }
           },
           {
@@ -132,8 +175,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -142,8 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
-              }
+                "file": "Templates/course.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of course"
             }
           },
           {
@@ -151,7 +203,9 @@
             "type": "leaf",
             "state": {
               "type": "git-history-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -163,32 +217,53 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2b01b039eab3e6fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "content/talks/a-talks.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for a-talks"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d779bc59a19f4d48",
+  "active": "3eaf5e023613088e",
   "lastOpenFiles": [
-    "Templates/course.md",
-    "README.md",
-    "Templates/external-blog.md",
-    "Templates/local-blog.md",
+    "content/talks/test-qweqwe.md",
+    "content/talks/a-talks.md",
     "Templates/talk.md",
+    "content/videos/test-write-content.md",
+    "content/talks",
+    "Templates/course.md",
+    "content/videos",
+    "content",
+    "README.md",
     "Templates/video.md",
+    "Templates/local-blog.md",
+    "Templates/external-blog.md",
+    "Untitled",
     "content/videos/a-lazy-mans-obsidian-astro-workflow-integration.md",
     "content/videos/css-container-queries-in-5-minutes.md",
     "content/talks/android-worldwide-mobile-app-monitoring-101.md",
@@ -210,16 +285,9 @@
     "content/blog/creating-and-using-api-routes-in-nextjs/index.md",
     "content/blog/generating-blur-for-dynamic-images-nextjs/index.md",
     "content/blog/using-nextjs-server-side-rendering-method/index.md",
-    "content/blog/using-nextjs-static-generation-method/index.md",
-    "content/blog/the-sickest-astro-content-authoring-workflow/index.md",
     "content/blog/the-sickest-astro-content-authoring-workflow/astro-logo-light-gradient.svg",
     "content/blog/the-sickest-astro-content-authoring-workflow",
     "content/blog/The sickest Astro content authoring workflow",
-    "content/blog/end-to-end-monitoring-for-web-and-mobile-applications-with-sentry.md",
-    "content/blog/tips-for-react",
-    "content/blog/Tips for React",
-    "content/blog/using-nextjs-static-generation-method",
-    "content/blog/using-nextjs-server-side-rendering-method",
     "content/blog/rodecaster-pro-review/rodecaster-pro.jpg",
     "content/blog/improving-chakra-ui-page-speed/old-metrics.png",
     "content/blog/improving-chakra-ui-page-speed/new-metrics.png",
